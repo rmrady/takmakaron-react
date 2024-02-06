@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'myfont';
+  src: url('./assets/fonts/IRANSansWeb\(FaNum\).woff2');
+}
+.myfont{
+  font-family: 'myfont';
+}
+.transitionR{
+  transition: all 600ms ease 0s;
+}
