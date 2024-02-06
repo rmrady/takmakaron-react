@@ -1,11 +1,13 @@
 import React from 'react'
 import './index.css'
 import Header from './component/header'
+import Section from './component/section'
 
 function App() {
   return (
     <div >
       <Header/>
+      <Section/>
     </div>
   )
 }
