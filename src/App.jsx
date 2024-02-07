@@ -1,7 +1,10 @@
 import React from 'react'
-import './index.css'
-import Header from './component/header'
-import Section from './component/section'
+
+import './index.css';
+import './styles.css';
+import Header from './component/header';
+import Section from './component/section';
+
 
 function App() {
   return (

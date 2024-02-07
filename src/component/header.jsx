@@ -25,7 +25,7 @@ function Header() {
   return (
     <div className="relative myfont">
       {/* header1 */}
-      <header className="w-full fixed top-0 ">
+      <header className="w-full fixed top-0 z-30 ">
         <img className="w-full h-[40px]  lg:h-[50px]" src={green} alt="" />
         <div className=" w-full absolute top-2 lg:top-4 flex justify-end lg:justify-between lg:px-32 ">
           <div className="hidden  lg:flex  text-white">
