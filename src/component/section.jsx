@@ -15,6 +15,7 @@ import section3_3 from "../assets/img/section3-3.jpg"
 import section3_4 from "../assets/img/section3-4.jpg"
 import section3_5 from "../assets/img/section3-5.jpg"
 import green2 from "../assets/img/green2.jfif"
+import section4 from "../assets/img/section4.png"
 
 function Section() {
   return (
@@ -129,7 +130,7 @@ function Section() {
 
       {/* section3 */}
       <div className="w-full text-center flex lg:h-[800px] overflow-hidden mt-14">
-        <div className="hidden w-[30%] h-[500px] ">
+        <div className="hidden lg:block w-[30%] h-[500px] ">
           <img className="border-4 border-[#ab8c5a] m-1 " src={section3_1} alt=""/>
         </div>
         <div className="w-full lg:w-[80%] lg:h-[800px] overflow-hidden lg:mr-1">
@@ -146,6 +147,9 @@ function Section() {
       </div>
 
       {/* section4 */}
+      <div className="mt-14">
+        <img src={section4} alt="" />
+      </div>
     </div>
   );
 }
