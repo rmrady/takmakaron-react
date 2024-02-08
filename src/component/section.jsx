@@ -9,6 +9,12 @@ import img1 from "../assets/img/img1.jpg";
 import img2 from "../assets/img/img2.jpg";
 import img3 from "../assets/img/img3.png";
 import img4 from "../assets/img/img4.jpg";
+import section3_1 from "../assets/img/section3-1.jpg"
+import section3_2 from "../assets/img/section3-2.jpg"
+import section3_3 from "../assets/img/section3-3.jpg"
+import section3_4 from "../assets/img/section3-4.jpg"
+import section3_5 from "../assets/img/section3-5.jpg"
+import green2 from "../assets/img/green2.jfif"
 
 function Section() {
   return (
@@ -120,6 +126,26 @@ function Section() {
           </Swiper>
         </div>
       </div>
+
+      {/* section3 */}
+      <div className="w-full text-center flex lg:h-[800px] overflow-hidden mt-14">
+        <div className="hidden w-[30%] h-[500px] ">
+          <img className="border-4 border-[#ab8c5a] m-1 " src={section3_1} alt=""/>
+        </div>
+        <div className="w-full lg:w-[80%] lg:h-[800px] overflow-hidden lg:mr-1">
+          <div className=" lg:h-[400px] lg:flex overflow-hidden">
+            <img className="w-full h-[250px] lg:h-auto lg:w-auto m-1" src={green2} alt="" />
+            <img className="w-full h-[250px] lg:h-auto border-4 border-[#ab8c5a] m-1" src={section3_2} alt=""/>             
+          </div>
+          <div className=" flex h-[400px] overflow-hidden mt-1 ">
+          <img className="hidden  lg:block w-[33%] border-4 border-[#ab8c5a] mx-1 " src={section3_3} alt="" />
+          <img className="w-full h-[350px] lg:h-auto lg:w-[33%] border-4 border-[#ab8c5a] lg:mx-1 " src={section3_4} alt="" />
+          <img className=" hidden  lg:block w-[33%] border-4 border-[#ab8c5a] mx-1 " src={section3_5} alt="" />
+          </div>
+        </div>
+      </div>
+
+      {/* section4 */}
     </div>
   );
 }
