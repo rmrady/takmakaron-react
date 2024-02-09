@@ -16,6 +16,9 @@ import section3_4 from "../assets/img/section3-4.jpg"
 import section3_5 from "../assets/img/section3-5.jpg"
 import green2 from "../assets/img/green2.jfif"
 import section4 from "../assets/img/section4.png"
+import section5_1 from "../assets/img/section5-1.jpg"
+import section5_2 from "../assets/img/section5-2.png"
+import section5_3 from "../assets/img/section5-3.jpg"
 
 function Section() {
   return (
@@ -150,6 +153,26 @@ function Section() {
       <div className="mt-14">
         <img src={section4} alt="" />
       </div>
+
+      {/* section5 */}
+      <div className="mt-14">
+        <h2 className="text-[25px] font-bold text-center border-b border-gray-300 pb-4">دستور پخت</h2>
+        <div className="flex h-[300px] overflow-hidden mt-10">
+          <div className="w-[33%] relative">
+          <img  src={section5_1} alt="" />
+          <p className=" absolute bottom-6 ">جامبو شلز مرغ و پنیر</p>
+          </div>
+          <div className="w-[33%] relative">
+            <img  src={section5_2} alt="" />
+            <p className=" absolute bottom-6 ">لازانیا راتاتویی</p>
+          </div>
+          <div className="w-[33%]  relative">
+            <img  src={section5_3} alt="" />
+            <p className=" absolute bottom-6 ">اسپاگتی با سیر و روغن زیتون</p>
+          </div>
+        </div>
+      </div>
+
     </div>
   );
 }
