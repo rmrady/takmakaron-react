@@ -4,6 +4,7 @@ import './index.css';
 import './styles.css';
 import Header from './component/header';
 import Section from './component/section';
+import Footer from './component/footer';
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
     <div >
       <Header/>
       <Section/>
+      <Footer/>
     </div>
   )
 }
